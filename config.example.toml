@@ -1,0 +1,3 @@
+[telegram_bot]
+skip_updates = true
+token = "<your_bot_token>"

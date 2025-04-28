@@ -1,0 +1,10 @@
+[project]
+name = "telegram-bot-template"
+version = "1.0.0"
+description = "Telegram bot"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiogram>=3.20.0.post0",
+    "dishka>=1.5.3",
+]
