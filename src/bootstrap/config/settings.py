@@ -5,7 +5,7 @@ from typing import Final, Self
 from pydantic import BaseModel
 
 
-ROOT_PATH: Final[pathlib.Path] = pathlib.Path(__file__).parent.parent.parent
+ROOT_PATH: Final[pathlib.Path] = pathlib.Path(__file__).parent.parent.parent.parent
 CONFIG_FILE_PATH: Final[pathlib.Path] = ROOT_PATH / "config.toml"
 
 
